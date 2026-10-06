@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON VAULT - Fitness & Performance</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a href="hero.html" class="logo">
+            <i class="fa-solid fa-bolt"></i> CHARLIE<span>GYM</span>
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-toggle-label" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="Membership.html">Membership</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="Coaches.html">Coaches</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <a href="#pricing" class="nav-btn">Get Started</a>
+    </nav>
+
+
+         <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="contact-box">
+            <div class="contact-info">
+                <h2>READY TO ENTER THE CHARLIE?</h2>
+                <p>Stop by for a tour or send us a message to lock in your trial session.</p>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <strong>Location</strong>
+                        <p>12 Fitness Boulevard, City Center</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <strong>Phone</strong>
+                        <p>+234 815 568 5334</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <strong>Email</strong>
+                        <p>join@charliegym.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" onsubmit="event.preventDefault();">
+                <h3>Claim Free 1-Day Trial</h3>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <button type="submit" class="btn btn-primary">Reserve Spot</button>
+            </form>
+        </div>
+    </section>
+
+    
+    
+</body>
+</html>
